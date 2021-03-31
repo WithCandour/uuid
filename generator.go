@@ -28,9 +28,6 @@ import (
 // NewV1 returns UUID based on current timestamp and MAC address.
 var NewV1 = guuid.NewV1
 
-// NewV2 returns DCE Security UUID based on POSIX UID/GID.
-var NewV2 = guuid.NewV2
-
 // NewV3 returns UUID based on MD5 hash of namespace UUID and name.
 var NewV3 = guuid.NewV3
 
