@@ -38,7 +38,6 @@ type UUID = guuid.UUID
 // UUID versions
 const (
 	V1 = guuid.V1
-	V2 = guuid.V2
 	V3 = guuid.V3
 	V4 = guuid.V4
 	V5 = guuid.V5
